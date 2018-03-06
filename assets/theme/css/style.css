@@ -1,7 +1,18 @@
-/*!
+.engine {
+	position: absolute;
+	text-indent: -2400px;
+	text-align: center;
+	padding: 0;
+	top: 0;
+	left: -2400px;
+}/*!
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
  */
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li,
+figcaption, textarea, input, .display-1, .display-2 {
+  font: inherit; }
+
 section {
   background-color: #eeeeee; }
 
@@ -32,7 +43,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
-.display-1, .display-2, .display-3, .display-4 {
+.display-1, .display-2, .display-3 {
   line-height: 1;
   word-break: break-word;
   word-wrap: break-word; }
@@ -416,11 +427,3 @@ nav .mbr-section-btn {
     display: -webkit-flex !important; } }
 
 /*# sourceMappingURL=style.css.map */
-.engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
-	top: 0;
-	left: -2400px;
-}
